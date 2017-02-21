@@ -8,8 +8,7 @@ import Villain from '../models/villain';
   styleUrls: ['./villains-list.component.scss']
 })
 export class VillainsListComponent {
-  
+
   @Input() villains: Villain[];
-     
-  
+
 }
