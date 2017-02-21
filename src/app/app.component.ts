@@ -31,10 +31,5 @@ export class AppComponent {
       power: 1
     }
   ];
-
-  selectedVillain: Villain;
-
-  constructor() {
-    this.selectedVillain = this.badGuy[0];
-  }
+  
 }

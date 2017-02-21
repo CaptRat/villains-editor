@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import Villain from "../models/villain";
 
 @Component({
@@ -7,12 +7,12 @@ import Villain from "../models/villain";
   styleUrls: ['./villain-detail.component.scss']
 })
 export class VillainDetailComponent implements OnInit {
-
-@Input() villain: Villain;
-
+  
+  @Input() villain: Villain;
+  
   constructor() {
   }
-
+  
   ngOnInit() {
   }
 
@@ -29,5 +29,5 @@ export class VillainDetailComponent implements OnInit {
     console.log(villain);
     // console.log(this.villain);
   }
-
+  
 }
